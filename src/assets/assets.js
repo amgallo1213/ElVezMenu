@@ -329,9 +329,9 @@ export const vezFood = [
     },
     {
         "id" : 56,
-        "name": "Chocolate Ice Cream",
-        "ingredients" : "",
-        "allergens": "gluten (**garnish), dairy, eggs"
+        "name": "Cafe and Kahlua Ice Cream",
+        "ingredients" : "coffee, instant espresso, sugar, cream, yolks, Kahlua, salt",
+        "allergens": "gluten (**garnish), dairy, eggs, alcohol"
     },
     {
         "id" : 57,
