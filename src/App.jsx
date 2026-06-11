@@ -33,6 +33,7 @@ function App() {
       <div className='main-container'>
         <h1>El Vez Menu Info</h1>
         <input type="query" className="query" placeholder='Search...' onChange={(e) => setQuery(e.target.value.toLowerCase())}/>
+        <p>** - can be removed</p>
 
         <div className="item-container">
 
@@ -50,8 +51,10 @@ function App() {
               <p>Allergens: {item.allergens}</p>
             </div>
           ))} */}
-          <BoozeCard data={search(vezBooze)}/>
-          <MenuItemCard data={search(vezFood)}/>
+        
+            <MenuItemCard data={search(vezFood)}/>
+            <BoozeCard data={search(vezBooze)}/>
+          
           </div>
         
       </div>

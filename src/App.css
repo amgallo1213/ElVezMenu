@@ -4,7 +4,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: rgb(251, 245, 245);
+  background-color: rgb(253, 238, 247);
 }
 
 h1, h2, h3, h4, h5, h6  {
@@ -16,8 +16,17 @@ h1, h2, h3, h4, h5, h6  {
 p {
   font-family: "Montserrat", sans-serif;
   padding: 12px;
-  line-height: 20px;
+  line-height: 24px;
 }
+
+.bold-p   {
+  font-weight: 700;
+}
+
+.span-p {
+  font-weight: 400;
+}
+
 
 .query {
   width: 275px;
@@ -41,7 +50,7 @@ p {
     justify-content: center;
 }
 
-h1  {
+h1, h3  {
   text-align: center;
 }
 
@@ -51,7 +60,7 @@ h1  {
   border: 1px solid black;
   margin: 16px;
   padding: 8px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 @media (min-width: 768px) {

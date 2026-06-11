@@ -6,9 +6,9 @@ const MenuItemCard = ({data}) => {
       {data.map((item) => (
       <div className="item-card" key={item.id}>
         
-          <h2>{item.name}</h2>
-          <p>Ingredients: {item.ingredients}</p>
-          <p>Allergens: {item.allergens}</p>
+          <h3>{item.name}</h3>
+          <p className='bold-p'>Ingredients: <span className='span-p'>{item.ingredients}</span></p>
+          <p className='bold-p'>Allergens: <span className='span-p'>{item.allergens}</span></p>
         
         
       </div>
