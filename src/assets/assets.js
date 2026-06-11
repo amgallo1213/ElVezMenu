@@ -56,7 +56,7 @@ export const vezFood = [
         "id" :10 ,
         "name": "Salsa Mexicana",
         "ingredients" : "tomato, red onion, jalapeno, cilantro, lime juice, tequila",
-        "allergens": "citrus/fruit (**lime), **alcohol, **jalapeno, wheat/gluten (**jalapeno), **onion/garlic, **cilantro"
+        "allergens": "citrus/fruit, alcohol, jalapeno, wheat/gluten (jalapeno), onion/garlic, cilantro"
     },
     {
         "id" : 11,
