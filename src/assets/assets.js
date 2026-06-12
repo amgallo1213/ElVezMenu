@@ -434,23 +434,177 @@ export const vezFood = [
 export const vezBooze = [
     {
         "id" : 100,
-        "name" : "Grenada Margarita",
-        "specs" : "2 oz Familia Camarena Reposado, 1 oz lime mix, 1 oz orange nectar, .75 oz pomegranate puree",
+        "name" : "El Vez Margarita",
+        "specs" : "2 oz Hornitos Plata, 1.25 oz lime mix, .75 oz orange nectar",
         "garnish" : "",
-        "notes" : "blah, blah, blah"
+        "notes" : "on draft"
     },
     {
         "id" : 101,
-        "name" : "Pina Colada",
+        "name" : "Pink Cadillac",
+        "specs" : "2 oz Topaz Silver tequila, .75 oz lime mix, .75 oz simple syrup, .75 oz cranberry juice, .75 oz orange juice",
+        "garnish" : "",
+        "notes" : "on draft"
+    },
+    {
+        "id" : 102,
+        "name" : "Golden Gloves",
+        "specs" : "2 oz Hornitos Reposado, 1 oz lime mix, 1 ox Orange-Grand Marnier syrup",
+        "garnish" : "",
+        "notes" : ""
+    },
+    {
+        "id" : 103,
+        "name" : "Grenada Margarita",
+        "specs" : "2 oz Familia Camarena Reposado, 1 oz lime mix, 1 oz orange nectar, .75 oz pomegranate puree",
+        "garnish" : "",
+        "notes" : ""
+    },
+    {
+        "id" : 104,
+        "name" : "Smoke Show",
+        "specs" : "1.5 oz Amaras mezcal, .5 oz Corozon blanco, 1 oz lime mix, 1 oz orange nectar",
+        "garnish" : "",
+        "notes" : ""
+    },
+    {
+        "id" : 105,
+        "name" : "Skinny Margarita",
+        "specs" : "2 oz Hornitos Plata, 1 oz lime mix, .5 oz agave nectar, club soda",
+        "garnish" : "",
+        "notes" : ""
+    },
+    {
+        "id" : 106,
+        "name" : "Paloma",
+        "specs" : "2 oz Corozon blanco, .5 oz lime mix, 1 oz fresh grapefruit juice, 1/2 bottle grapefruit jarritos",
+        "garnish" : "salt rim, lime wedge",
+        "notes" : ""
+    },
+    {
+        "id" : 107,
+        "name" : "Guava Mojito",
+        "specs" : "2 oz Bacardi Superior Rum, 1 oz lime mix, 1 ox guava simple syrup, 4 mint leaves, top with sprite",
+        "garnish" : "",
+        "notes" : ""
+    },
+    {
+        "id" : 108,
+        "name" : "Mezcal Mule",
+        "specs" : "2 oz Catedral Mezcal, 1 oz lime mix, top with FeverTree Ginger Beer",
+        "garnish" : "lime wedge",
+        "notes" : ""
+    },
+    {
+        "id" : 109,
+        "name" : "Oaxacan Old Fashioned",
+        "specs" : "1.5 oz Fidencio Clasico Mezcal, .5 oz Hornitos Black Barrel, .5 oz simple syrup, 4 dashes bitters",
+        "garnish" : "grilled orange",
+        "notes" : ""
+    },
+    {
+        "id" : 110,
+        "name" : "Lychee Sour",
+        "specs" : "2 oz Hornitos Black Barrel Anejo Tequila, 2 oz lychee puree, 1 oz lemon juice, 1 oz orange nectar, 3-5 dashes fee foam",
+        "garnish" : "Luxardo cherry",
+        "notes" : ""
+    }, 
+    {
+        "id" : 111,
+        "name" : "Mezcal Negroni",
+        "specs" : ".5 oz Banhez mezcal, .5 oz Bluecoat gin, 1 oz Campari, 1 oz sweet vermouth, 3 dashes apple bitters",
+        "garnish" : "",
+        "notes" : "on draft"
+    },
+    {
+        "id" : 112,
+        "name" : "Grand Jefe",
+        "specs" : "2 oz Patron Reposado, 1 oz lime mix, 1 oz cinnamon-Combier syrup",
+        "garnish" : "grilled orange",
+        "notes" : ""
+    },
+    {
+        "id" : 113,
+        "name" : "Cafe Tijuana",
+        "specs" : "1.5 oz Cazadores Reposado, .5 oz Bailey's Irish Cream, .5 oz borghetti caffee espresso, 1 oz La Colombe Espresso",
+        "garnish" : "3 coffee beans",
+        "notes" : ""
+    },
+    {
+        "id" : 114,
+        "name" : "Ranch Water",
+        "specs" : "2 oz spirit, 1 oz lime mix, top with Topo Chico",
+        "garnish" : "",
+        "notes" : ""
+    },
+    {
+        "id" : 115,
+        "name" : "El Vez Bloody Mary",
+        "specs" : "2 oz Hornitos Plata, 3 oz Bloody Mary Mix",
+        "garnish" : "lime wedge, lemon wedge, olive",
+        "notes" : ""
+    },
+    {
+        "id" : 116,
+        "name" : "Michelada",
+        "specs" : ".5 oz lime mix, .5 oz sangrita, top with beer",
+        "garnish" : "tajin rim",
+        "notes" : ""
+    },
+    {
+        "id" : 117,
+        "name" : "Chelada",
+        "specs" : ".5 oz lime mix, top with beer",
+        "garnish" : "tajin rim",
+        "notes" : ""
+    },
+    {
+        "id" : 118,
+        "name" : "Mojito",
+        "specs" : "2 oz Bacardi Superior Rum, 1 oz lime mix, 1 oz simple syrup, 4 mint leaves, top with club soda",
+        "garnish" : "",
+        "notes" : ""
+    },
+    {
+        "id" : 119,
+        "name" : "Zero Proof Cucumber Spritz",
+        "specs" : "1 oz lime mix, 1 oz simple syrup, top with FeverTree sparkling cucumber soda",
+        "garnish" : "cucumber slice",
+        "notes" : ""
+    },
+    {
+        "id" : 120,
+        "name" : "Zero Proof Spritz No. 2",
+        "specs" : "3 oz Phoney Negroni, 2 oz honey-lemon syrup, top wiht lime jarritos",
+        "garnish" : "lime wedge (an orange wedge is better)",
+        "notes" : "on draft"
+    },
+    {
+        "id" : 121,
+        "name" : "Happy HourPina Colada",
         "specs" : "2 oz rum mix (or 1 oz each pineapple & coconut rum), .5 oz lime mix, 1.5 oz pineapple juice, 1 oz coconut puree",
         "garnish" : "mini umbrella",
         "notes" : ""
+    },
+    {
+        "id" : 122,
+        "name" : "Limeade",
+        "specs" : "2 oz lime mix, 1 oz simple syrup, 1 oz agave nector, 5 mint leaves, top with club soda",
+        "garnish" : "",
+        "notes" : ""
+    },
+    {
+        "id" : 123,
+        "name" : "White Sangria",
+        "specs" : "white wine, peach nectar",
+        "garnish" : "sangria fruit (apples, pears)",
+        "notes" : ""
+    },
+    {
+        "id" : 124,
+        "name" : "Red Sangria",
+        "specs" : "red wine, spiced brandy",
+        "garnish" : "sangria fruit (apples, pears)",
+        "notes" : ""
     }
-    // {
-    //     "id" : 102,
-    //     "name" : "",
-    //     "specs" : "",
-    //     "garnish" : "",
-    //     "notes" : ""
-    // }
 ]
