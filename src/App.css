@@ -4,13 +4,19 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: rgb(253, 238, 247);
+
 }
 
 h1, h2, h3, h4, h5, h6  {
   /* font-family: "Corben", serif; */
   font-family: "Montserrat", sans-serif;
   padding: 8px;
+}
+
+h1  {
+  color: rgb(40, 1, 24);
+  font-size: clamp(2.5rem, 4.619vw + 1.305rem, 5rem);
+  line-height: clamp(3.75rem, 5.081vw + 2.435rem, 6.5rem);
 }
 
 p {
@@ -29,23 +35,25 @@ p {
 
 
 .query {
-  width: 275px;
+  max-width: 300px;
   padding: 10px;
   font-size: 20px;
   margin: 24px;
 }
 
 .main-container  {
+  background-color: rgb(245, 238, 241);
   padding: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .item-container{
   width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-columns: repeat(auto-fit, 350px);
     gap: 12px;
     justify-content: center;
 }
@@ -55,17 +63,18 @@ h1, h3  {
 }
 
 .item-card  {
-  width: 250px;
+  background-color: rgb(249, 247, 248);
+  width: 325px;
   height: auto;
   border: 1px solid black;
   margin: 16px;
   padding: 8px;
-  border-radius: 8px;
+  border-radius: 2px;
 }
 
 @media (min-width: 768px) {
   .main-container  {
-    /* flex-direction: row; */
+    flex-direction: row;
     padding: 24px
   }
 }
