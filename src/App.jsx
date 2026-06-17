@@ -35,6 +35,8 @@ function App() {
         </div>
         
         <p>** - can be removed</p>
+        <p>The only soy on the menu is in the tamari.</p>
+        <p>Our chips are gluten free but if someone is extremely sensitive to gluten, they should not have them as we cannot guarantee no cross contamination.</p>
 
         <div className="item-container">
           
