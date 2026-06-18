@@ -3,14 +3,15 @@ export const vezFood = [
         "id" : 1,
         "name" : "Guac base",
         "category" : "guac",
-        "ingredients" : "Haas avocados, lime, salt, EVOO"
+        "ingredients" : "Haas avocados, lime, salt, EVOO",
+        "allergens" : "none"
     },
     {
         "id" : 2,
         "name": "Original Guac",
         "category" : "guac",
         "ingredients" : "Haas avocados, diced red onion, diced tomato, roasted jalapenos, cilantro, kosher salt, EVOO, fresh squeezed lime juice", 
-        "allergens": "**citrus/fruit, **onion/garlic, **cilantro"
+        "allergens": "**citrus/fruit, **onion/garlic, **cilantro, **nightshade"
     },
     {
         "id" : 3,
@@ -24,49 +25,49 @@ export const vezFood = [
         "name": "Bazooka Limon Guac",
         "category" : "guac",
         "ingredients": "guac base, goat cheese, pistachios, roasted tomato, shallots, red pepper flakes, parsley, garlic chips", 
-        "allergens": "**citrus/fruit, **nuts, **dairy, wheat/gluten (**garlic chips), **onion/garlic"
+        "allergens": "**citrus/fruit, **nuts, **dairy, wheat/gluten (**garlic chips), **onion/garlic, **nightshade"
     },
     {
         "id" : 5,
         "name": "Yokozuna Guac",
         "category" : "guac",
         "ingredients" : "guac base, poblano-herb puree, yozu-soy (tamari) marinated tuna, fresno chilies, radish, cilantro",
-        "allergens": "citrus, onions/garlic, soy"
+        "allergens": "citrus, onions/garlic, soy, nightshade"
     },
     {
         "id" : 6,
         "name": "Tito Santana Guac",
         "category" : "guac",
         "ingredients" : "guac base, red onion, red bell peppers, mango, jicama, garlic, serranos, habaneros, cilantro",
-        "allergens": "**citrus/fruit, **onion/garlic, **cilantro"
+        "allergens": "**citrus/fruit, **onion/garlic, **cilantro, **nightshade"
     },
     {
         "id" :7 ,
         "name": "Nacho Mama",
         "category" : "chippy things",
         "ingredients" : "chips, crema, salsa ranchero (tomato, onion, garlic, serrano chili, poblano, chili, shallot, cilantro, EVOO, salt) black beans (black beans, onion, garlic, green/red bell peppers, chipotle chili, blended oil, epazote, salt), pickled jalepenos (jalapenos, bay leaf, mexican oregano, white vinegar, EVOO, lime juice, salt, sugar), queso mixto (monterey jack, white cheddar, chihuahua cheeses), diced plum tomatoes, cilantro",
-        "allergens": "**citrus/fruit, **dairy, **onion/garlic, **cilantro"
+        "allergens": "**citrus/fruit, **dairy, **onion/garlic, **cilantro, **nightshade"
     },
     {
         "id" : 8,
         "name": "Chicken Nachos",
         "category" : "chippy things",
         "ingredients" : "nacho mama ingredients, chicken tinga (blended oil, chicken thighs, tomatoes, chipotles, bay leaf, onion, garlic, salt",
-        "allergens": "**citrus/fruit, **dairy, onion/garlic, **cilantro"
+        "allergens": "**citrus/fruit, **dairy, onion/garlic, **cilantro, nightshade"
     },
     {
         "id" : 9,
         "name": "Chorizo Nachos",
         "category" : "chippy things",
         "ingredients" : "nacho mama ingredients, chorizo (ground pork, onion, poblano chili, cilantro, garlic, allspice, cayenne, paprika, cider vinegar, mexican oregano",
-        "allergens": "**citrus/fruit, **dairy, **onion/garlic, cilantro (chorizo)"
+        "allergens": "**citrus/fruit, **dairy, **onion/garlic, cilantro (chorizo), nightshade"
     },
     {
         "id" :10 ,
         "name": "Salsa Mexicana",
         "category" : "sauces",
         "ingredients" : "tomato, red onion, jalapeno, cilantro, lime juice, tequila",
-        "allergens": "citrus/fruit, alcohol, jalapeno, onion/garlic, cilantro"
+        "allergens": "citrus/fruit, alcohol, jalapeno, onion/garlic, cilantro, nightshade"
     },
     {
         "id" : 11,
@@ -86,84 +87,84 @@ export const vezFood = [
         "name": "Salsa Roja",
         "category" : "sauces",
         "ingredients" : "tomatoes, jalapenos, guajillo chile, garlic, onions, chipotle, fresh cilantro, chile de arbol",
-        "allergens":  "onion/garlic, cilantro"
+        "allergens":  "onion/garlic, cilantro, nightshade"
     },
     {
         "id" : 14,
         "name": "Salsa Verde",
         "category" : "sauces",
         "ingredients" : "tomatillos, jalapeno, avocado, garlic, salt, onion, cilantro",
-        "allergens": "citrus/fruit, onion/garlic, cilantro"
+        "allergens": "citrus/fruit, onion/garlic, cilantro, nightshade"
     },
     {
         "id" : 15,
         "name": "Tuna Tostadas",
         "category" : "appetizer",
         "ingredients" : "yellowfin 1+ grade tuna, tamari, chipotle mayo, red onion, olive oil, chives, cilantro, lime juice, serrano, crisp white corn tortillas, fresh avocado, fried white onion",
-        "allergens": "citrus/fruit, eggs (**aioli), soy, **onion/garlic, **cilantro, fish"
+        "allergens": "citrus/fruit, eggs (**aioli), soy, **onion/garlic, **cilantro, fish, nightshade"
     },
     {
         "id" : 16,
         "name": "Shrimp Quesadilla",
         "category" : "appetizer",
         "ingredients" : "3 U-15 shrimp (split in half and marinated in Chipotle chili puree, garlic oil, lime zest), crispy flour tortilla, Pasilla chile sauce (tomatoes, garlic, cloves, canella, chicken stock, cumin), Queso Mixto (Monterey jack, cheddar, chihuahua cheese), avocado cream (cilantro, avocado, jalapeno, milk, salt), pickled jalapeno, tomatoes, micro cilantro",
-        "allergens": "**citrus/fruit, **shellfish, dairy, **wheat/gluten, onion/gluten (**sauce and shrimp), **cilantro"
+        "allergens": "**citrus/fruit, **shellfish, dairy, **wheat/gluten, onion/gluten (**sauce and shrimp), **cilantro, nightshade"
     },
     {
         "id" : 17,
         "name": "Chicken Quesadilla",
         "category" : "appetizer",
         "ingredients" : "6oz grilled chicken breast (achiote and orange juice marinade), corn tortillas, queso chihuahua, diced onion, cilantro, pickled jalapeno, salsa verde",
-        "allergens": "citrus/fruit, dairy, onion/garlic (salsa mexicana), **cilantro"
+        "allergens": "citrus/fruit, dairy, onion/garlic (salsa mexicana), **cilantro, nightshade"
     },
     {
         "id" : 18,
         "name": "Steak Quesadilla",
         "category" : "appetizer",
         "ingredients" : "marinated skirt steak, 10 inch flour tortilla, seared queso mixto, salsa taqueria (chipotle, morita, spanish onion, tomatillo, garlic, salsa roja, pickled jalapenos, raw spanish onion, cilantro",
-        "allergens": "dairy, wheat/gluten"
+        "allergens": "dairy, wheat/gluten, nightshade"
     },
     {
         "id" : 19,
         "name": "Queso Fundido de Carne",
         "category" : "appetizer",
         "ingredients" : "chorizo, onions, poblano peppers, cilantro, queso mixto (monterey jack, cheddar, chihuahua cheese), flour tortillas, salsa roja",
-        "allergens": "dairy, wheat/gluten (tortillas), onion/garlic, cilantro"
+        "allergens": "dairy, wheat/gluten (tortillas), onion/garlic, cilantro, nightshade"
     },
     {
         "id" : 20,
         "name": "Queso Fundido de Hongos",
         "category" : "appetizer",
         "ingredients" : "shitake mushrooms, crimini mushrooms, shallots, garlic, poblano puree (roasted poblanos, roasted jalapenos, cilantro), oaxaca/chihuahua cheese blend, flour tortillas, salsa roja",
-        "allergens": "dairy, wheat/gluten (**tortillas), onion/garlic, mushrooms, cilantro"
+        "allergens": "dairy, wheat/gluten (**tortillas), onion/garlic, mushrooms, cilantro, nightshade"
     },
     {
         "id" : 21,
         "name": "Talyuda",
         "category" : "appetizer",
         "ingredients" : "crispy black bean tortilla (black beans, butter), refried black bean puree (onion, garlic, chipotle, garlic oil, black bean), queso mixto (melted onto tortilla), lettuce, radish, pickled jalapenos, oaxaca cheese, avocado, salsa roja",
-        "allergens": "citrus/fruit (**pickled jalapenos), dairy, onion/garlic"
+        "allergens": "citrus/fruit (**pickled jalapenos), dairy, onion/garlic, nightshade"
     },
     {
         "id" : 22,
         "name": "Sweet Corn and Poblano Empanadas",
         "category" : "appetizer",
         "ingredients" : "filling (epazote, corn, cream, poblano peppers, oaxaca cheese), adobo spice dusting, peanut salsa verde (charred onions, garlic, serrano chilies, cilantro, chopped peanuts)",
-        "allergens": "nuts (**sauce), dairy, wheat/gluten, onion/garlic, cilantro"
+        "allergens": "nuts (**sauce), dairy, wheat/gluten, onion/garlic, cilantro, nightshade"
     },
     {
         "id" : 23,
         "name": "Tortilla Soup",
         "category" : "salads",
         "ingredients" : "pasilla chile broth (pasilla peppers, charred onions, chicken stock, charred tomatoes, garlic, pureed tortilla chips), diced chicken thigh meat, sliced avocado, cilantro, crema fresca, crisp fried tortilla strips, queso fresco",
-        "allergens": "**citrus/fruit, **dairy, wheat/gluten (**tortilla strips), onion, cilantro"
+        "allergens": "**citrus/fruit, **dairy, wheat/gluten (**tortilla strips), onion, cilantro, nightshade"
     },
     {
         "id" : 24,
         "name": "Mexican Chopped Salad",
         "category" : "salads",
         "ingredients" : "romaine, watercress, black beans, pepitas, chayote (a mild, pear-shaped squash that's crispy and slightly sweet), charred corn, grape tomatoes, queso fresco, crispy tortilla strips",
-        "allergens": "**citrus/fruit, **seeds, **dairy, wheat/gluten (**tortilla strips), onion/garlic (**vin)"
+        "allergens": "**citrus/fruit, **seeds, **dairy, wheat/gluten (**tortilla strips), onion/garlic (**vin), **nightshade"
     },
     {
         "id" : 25,
@@ -177,77 +178,77 @@ export const vezFood = [
         "name": "Carne Asada Burrito",
         "category" : "lunch",
         "ingredients" : "Marinated skirt steak, black beans, cilantro-lime rice, cheese mix (queso chihuahua, monterey jack, white cheddar), crema, el vez original guac, salsa roja, salsa Mexicana, wrapped in flour tortilla.",
-        "allergens": "citrus/fruit, **diary, wheat/gluten (**tortilla), onion/garlic, cilantro"
+        "allergens": "citrus/fruit, **diary, wheat/gluten (**tortilla), onion/garlic, cilantro, nightshade"
     },
     {
         "id" : 27,
         "name": "Birria Tacos",
         "category" : "tacos",
         "ingredients" : "braised lamb shoulder, onions, cilantro, monterey jack cheese, corn tortillas, lamb jus, chiles",
-        "allergens": "**onion/garlic, **cilantro, **dairy"
+        "allergens": "**onion/garlic, **cilantro, **dairy, nightshade"
     },
     {
         "id" : 28,
         "name": "Chicken Burrito",
         "category" : "lunch",
         "ingredients" : "Marinated achiote chicken breast, shredded iceberg lettuce, black beans, white rice, corn pico (plum tomatoes, jalapenos, red onion, lime, corn, cilantro, eevo, salt), avocado espuma (milk, avocado, cilantro, jalapeno, lime, salt), queso chihuahua, wrapped in a flour tortilla and served with a side of salsa verde.",
-        "allergens": "**citrus/fruit, **diary, wheat/gluten (**tortilla), onion/garlic, cilantro (**salsa)"
+        "allergens": "**citrus/fruit, **diary, wheat/gluten (**tortilla), onion/garlic, cilantro (**salsa), nightshade"
     },
     {
         "id" : 29,
         "name": "Steak Tacos",
         "category" : "tacos",
         "ingredients" : "5oz grilled and dices skirt steak, taquiera salsa (tomatillo, onion, garlic, jalapeno, salt, sugar, chipotle Morita), grape tomato pico de gallo (tomato, white onion, serrano, cilantro, lime juice)",
-        "allergens": "**citrus/fruit, onion/garlic, **cilantro"
+        "allergens": "**citrus/fruit, onion/garlic, **cilantro, **nightshade"
     },
     {
         "id" : 30,
         "name": "Chicken Tacos",
         "category" : "tacos",
         "ingredients" : "marinated chicken thighs (tomatoes, cilantro, shallots, garlic, thyme, chile blend [arbol, guajillo, morita], salt, olive oil, smoked chile), chihuahua cheese, crema, avocado, tomato-tomatillo salsa (tomatillo, tomato, cilantro, white onion, olive oil, chipotel puree, drided chipotle, dried guajillo chiles), corn tortillas", 
-        "allergens": "citrus/fruit (CHX), **diary, onion/garlic (CHX), cilantro (CHX), **avocado"
+        "allergens": "citrus/fruit (CHX), **diary, onion/garlic (CHX), cilantro (CHX), **avocado, nightshade"
     },
     {
         "id" : 31,
         "name": "Mahi Tacos",
         "category" : "tacos",
         "ingredients" : "plaintain crusted mahi-mahi (flour dredge), pickled red cabbage, chipotle pepper remoulade (chipotle peppers, capers, scallions, mayo, lime juice), sliced avocados, flour tortillas",
-        "allergens": "**citrus/fruit, eggs (**aioli), wheat/gluten, onion/garlic, fish, **avocado"
+        "allergens": "**citrus/fruit, eggs (**aioli), wheat/gluten, **onion/garlic, fish, **avocado, **nightshade"
     },
     {
         "id" : 32,
         "name": "Carnitas Tacos",
         "category" : "tacos",
         "ingredients" : "confit pork belly & butt (confit in lard, white onion, garlic, oregano, thyme, black pepper, allspice, orange, Mexican coke), diced white onion, cilantro, salsa verde cruda (tomatillo, onion, garlic, serrano, salt), corn tortillas",
-        "allergens": "citrus/fruit, onion/garlic, **cilantro"
+        "allergens": "citrus/fruit, onion/garlic, **cilantro, **nightshade"
     },
     {
         "id" : 33,
         "name": "Cauliflower Tacos",
         "category" : "tacos",
         "ingredients" : "Al pastor marinated soft and crispy cauliflower (guajillo, achiote, pineapple, orange, garlic, onion), roasted cashew salsa (fermented habanero, cashews, orange juice, oil, tomatillo, spanish onion, sherry vinegar, cumin, cloves), sesame crema (mint, cilantro, parsley, tahini, garlic, jalapenos, lemon juice), pickle onions, cilantro, vegan crema, corn tortillas",
-        "allergens": "citrus/fruit, **nuts, **seeds, onion/garlic, **cilantro"
+        "allergens": "citrus/fruit, **nuts, **seeds, onion/garlic, **cilantro, nightshade"
     },
     {
         "id" : 34,
         "name": "Shrimp Tacos",
         "category" : "tacos",
         "ingredients" : "Negro Modelo beer battered shrimp, crema-mayo, salsa Mexicana, shredded cabbage, corn tortillas", 
-        "allergens": "**citrus/fruit, shellfish, **diary, **onion/garlic, **cilantro"
+        "allergens": "**citrus/fruit, shellfish, **diary, **onion/garlic, **cilantro, **nightshade"
     },
     {
         "id" : 35,
         "name": "Black Cod Al Pastor Tacos", 
         "category" : "tacos",
         "ingredients" : "Al pastor marinated black cod (guajillo, achiote, pineapple, orange, garlic, onion), morita aioli, grilled pineapple, limey cabbage, corn tortillas",
-        "allergens": "seafood, onion/garlic, **eggs, **pineapple, citrus"
+        "allergens": "seafood, onion/garlic, **eggs, **pineapple, citrus, nightshade"
     },
     {
         "id" : 36,
         "name": "Black Bean Enchilada",
         "category" : "tacos",
         "ingredients" : "roasted tomatillo salsa verde (tomatillos, garlic, epazote, avocado leaf, onions, olive oil), black beans, corn tortillas, queso oaxaca, chihuahua cheese, pickled red onions, crema",
-        "allergens": "avocado, **dairy, onion/garlic"
+        "allergens": "avocado, **dairy, onion/garlic, nightshade"
     },
     {
         "id" : 37,
@@ -261,42 +262,42 @@ export const vezFood = [
         "name": "Chicken Enchilada",
         "category" : "tacos",
         "ingredients" : "chicken thigh meat (coconut and habanero chili), corn tortillas, red chile enchilada sauce (mexican chocolate, tomatoes, guajillo chiles, cinnamon, clove, onion, garlic, coconut milk, heavy cream, oregano, basil), corn tortillas, crema, cotija cheese, sliced radishes",
-        "allergens": "nuts (shea nut), dairy, onion/garlic"
+        "allergens": "nuts (shea nut), dairy, onion/garlic, nightshade"
     },
     {
         "id" : 39,
         "name": "Carne Asada",
         "category" : "entrees",
         "ingredients" : "grilled 7oz (Myers Ranch all-natural beef) Flat Iron Steak (seasoned with S&P), creamed corn and jalapenos (fresh corn sautéed in butter with caramelized onion, fresh jalapenos, heavy cream and manchego cheese), Guajillo steak sauce (Guajillo puree, sherry vinegar, shallots, fresh oregano, honey and EVOO), tomatillo escabeche (fresh tomatillos, red onion pickled in rice wine vinegar and spices, then to order it is tossed with fresh cilantro and EVOO), grilled scallion.",
-        "allergens": "**dairy, **onion/garlic, **cilantro"
+        "allergens": "**dairy, **onion/garlic, **cilantro, **nightshade"
     },
     {
         "id" : 40,
         "name": "Snapper a la Veracruzana",
         "category" : "entrees",
         "ingredients" : "Pan seared red snapper, green rice (garlic, cilantro, basil, chives, parsley, peas, carrots) and Veracruz sauce (green olives, white onions, tomatoes, capers, pickled jalapenos)",
-        "allergens":  "onion/garlic (**sauce), **cilantro, nightshades"
+        "allergens":  "onion/garlic (**sauce), **cilantro, nightshades, **nightshade"
     },
     {
         "id" : 41,
         "name": "Grilled Corn",
         "category" : "sides",
         "ingredients" : "corn on the cob (or off), chipotle mayo, queso fresco, adobo spice",
-        "allergens": "**citrus/fruit, **eggs, **dairy, "
+        "allergens": "**citrus/fruit, **eggs, **dairy, **nightshade"
     },
     {
         "id" : 42,
         "name": "Brussels Sprouts",
         "category" : "sides",
-        "ingredients" : "Pan roasted Brussels sprouts in garlic-chile oil (Blended Oil, Chile de Arbol.). Tossed in a Tamari-Lime dressing (Tamari, Lime Juice, Orange Juice, Honey, Blended Oil) with shallot, pickled red Fresno chilis (Red Fresnos, White Vinegar, Salt, Sugar, Oregano, Bay Leaf), avocado mayo (Mayo, Avocado, Cilantro, Lime Juice, Salt) and toasted sesame.",
-        "allergens": "**citrus/fruit, seeds (**sesame), **eggs, **onion/garlic, **cilantro"
+        "ingredients" : "Pan roasted Brussels sprouts in garlic-chile oil (Blended Oil, Chile de Arbol). Tossed in a Tamari-Lime dressing (Tamari, Lime Juice, Orange Juice, Honey, Blended Oil) with shallot, pickled red Fresno chilis (Red Fresnos, White Vinegar, Salt, Sugar, Oregano, Bay Leaf), avocado mayo (Mayo, Avocado, Cilantro, Lime Juice, Salt) and toasted sesame.",
+        "allergens": "**citrus/fruit, seeds (**sesame), **eggs, **onion/garlic, **cilantro, nightshade"
     },
     {
         "id" : 43,
         "name": "Poblano Corn Rice",
         "category" : "sides",
         "ingredients" : "White rice, poblano peppers, corn, heavy cream, chihuahua cheese, topped with queso fresco.",
-        "allergens": "dairy"
+        "allergens": "dairy, nightshade"
     },
     {
         "id" : 44,
@@ -310,42 +311,42 @@ export const vezFood = [
         "name": "Refried Beans",
         "category" : "sides",
         "ingredients" : "refried pinto beans, pureed onion, garlic, chipotle, queso fresco, tortilla strips",
-        "allergens": "**dairy, wheat/gluten (**tortilla strips), onion/garlic"
+        "allergens": "**dairy, wheat/gluten (**tortilla strips), onion/garlic, nightshade"
     },
     {
         "id" : 46,
         "name": "Black Beans and Rice",
         "category" : "sides",
         "ingredients" : "Black beans (cooked with bell peppers, Epazote, onions, garlic, olive oil and cider vinegar), white rice, pickled red onions.",
-        "allergens": "onion/garlic"
+        "allergens": "onion/garlic, nightshade"
     },
     {
         "id" : 47,
         "name": "El Vez Burger",
         "category" : "brunch",
         "ingredients" : "8-ounce burger (cooked to order), brioche bun roll, lettuce, tomato, smoked poblano mayo. Comes with fries. Can add Chihuahua cheese and or bacon.",
-        "allergens": "**eggs, **dairy, **wheat/gluten (bun), **onion/garlic"
+        "allergens": "**eggs, **dairy, **wheat/gluten (bun), **onion/garlic, **nightshade"
     },
     {
         "id" : 48,
         "name": "Breakfast Burrito",
         "category" : "brunch",
         "ingredients" : "Scrambled eggs, diced potatoes, bacon, Chihuahua cheese, and salsa Mexicana rolled in a flour tortilla and served with a salad of baby arugula, red onion and sliced radish tossed in a toasted coriander vinaigrette. Side of salsa roja on the plate.",
-        "allergens": "**citrus/fruit, **alcohol, eggs, **dairy, wheat/gluten, **onion/garlic, **cilantro"
+        "allergens": "**citrus/fruit, **alcohol, eggs, **dairy, wheat/gluten, **onion/garlic, **cilantro, **nightshade"
     },
     {
         "id" : 49,
         "name": "Avocado Toast",
         "category" : "brunch",
         "ingredients" : "Toasted torta roll, El Vez original guac, topped with cherry tomatoes, persian cucumbers, honey, micro-cilantro, and lime. Served with a side of fresh fruit (strawberries and pineapple), and hard-boiled egg.",
-        "allergens": "**citrus/fruit, **eggs, **dairy, avocado, **onion/garlic, **cilantro"
+        "allergens": "**citrus/fruit, **eggs, **dairy, avocado, **onion/garlic, **cilantro, **nightshade"
     },
     {
         "id" : 50,
         "name": "Huevos Rancheros",
         "category" : "brunch",
         "ingredients" : "2 sunny-side eggs served over Rancheros salsa (tomato, garlic, onion, Serrano chili, shallot, Poblano chili, Oregano, Thyme, Guajillo chili, cilantro, EVOO, salt), over 2 fried corn tortilla, sautéed chorizo, queso fresco and black beans and finished with guacamole, salsa Mexicana, and cilantro.",
-        "allergens": "**citrus/fruit, eggs, **onion/garlic, **cilantro"
+        "allergens": "**citrus/fruit, eggs, **onion/garlic, **cilantro, nightshade"
     },
     {
         "id" : 51,
@@ -394,18 +395,18 @@ export const vezFood = [
         "name" : "Tuna Ceviche",
         "category" : "appetizer",
         "ingredients" : "Yellowfin tuna (1+ grade), lime juice, young coocnut, sliced knob onion, cucumber, sliced habanero, coconut-habanero broth (coconut milk, lime zest, habanero chile, salt, sugar, mint)",
-        "allergens" : "fish, citrus, capsaicin, allium"
+        "allergens" : "fish, citrus, capsaicin, onion/garlic, nightshade"
     },
     {
         "id" : 58,
         "name" : "Shrimp Aguachile Verde",
         "category" : "appetizer",
         "ingredients" : "chili lime marinated shrimp, chopped cucumber, red onion, cilantro, chiltepin, corn tostadas",
-        "allergens" : "allium, shellfish, nightshade, capsaicin"
+        "allergens" : "onion/garlic, shellfish, nightshade, capsaicin, nightshade"
     },
     {
         "id" : 59,
-        "name" : "Pina Colada Ice Cream",
+        "name" : "Pina Colada Sorbet",
         "category" : "dessert",
         "ingredients" : "pineapple, sugar, coconut milk, Malibu",
         "allergens" : "pineapple, alcohol, gluten (**garnish)"
@@ -429,14 +430,14 @@ export const vezFood = [
         "name" : "Habanero Salsa",
         "category" : "sauces",
         "ingredients" : "arbol chiles, Fresno chilies, habanero peppers, Spanish onions, garlic, guajillo chili paste, Crisco, orange juice, vinegar, salt",
-        "allergens" : "onions/garlic, capsacium"
+        "allergens" : "onions/garlic, capsacium, nightshade"
     },
     {
         "id" : 63,
         "name" : "Tacos Divorciados",
         "category" : "brunch",
         "ingredients" : "Fried corn tortillas with a chorizo-potato filling with queso Oaxaca served over a red and green sauce with two over easy eggs.",
-        "allergens" : "**dairy, **avocado, **egg"
+        "allergens" : "**dairy, **avocado, **egg, nightshade"
     },
     {
         "id" : 64,
@@ -457,42 +458,42 @@ export const vezFood = [
         "name" : "Tacos Al Carbon",
         "category" : "tacos",
         "ingredients" : "Rajas (Fire roasted Poblano peppers, red bell peppers, and Spanish onions), Garlic and parsley marinated grilled beef (Prime Bavette or “Vaccio” in Spanish), Adobo rubbed grilled chicken (marinade includes Guajillo chile, Pasilla chile, Garlic, Blend Oil, black pepper, Cloves), Adobo marinated Shrimp, Verde marinated portabella mushrooms (marinade includes Chives, Basil, Spinach, Garlic, Jalapeno, Cilantro, Parsley and Lime juice)",
-        "allergens" : "onion/garlic, citrus, cilantro (not portabella), gluten(**flour torts), **dairy,"
+        "allergens" : "onion/garlic, citrus, cilantro (not portabella), gluten(**flour torts), **dairy, nightshade"
     },
     {
         "id" : 67,
         "name" : "Salsa Con Queso",
         "category" : "Happy Hour",
         "ingredients" : "jalapeno cheese sauce, poblano-onion rajas, chile blend, salsa roja, tortilla chips",
-        "allergens" : "allium, dairy"
+        "allergens" : "onion/garlic, dairy, nightshade"
     },
     {
         "id" : 68,
         "name" : "Cheese Crisp",
         "category" : "Happy Hour",
         "ingredients" : "baked flour tortilla, morita mayo, pickled onions, pickled jalapenos, tomatillo-roja salsa, cilantro",
-        "allergens" : "allium, gluten, **egg, dairy, cilantro"
+        "allergens" : "allium, gluten, **egg, dairy, cilantro, nightshade"
     },
     {
         "id" : 69,
         "name" : "Taco Americano",
         "category" : "Happy Hour",
         "ingredients" : "ground beef, flour tortilla, monterery jack cheese, salsa mexicana, lettuce, crema, side habanero hot sauce",
-        "allergens" : "allium, **dairy, **gluten"
+        "allergens" : "allium, **dairy, **gluten, nightshade"
     },
     {
         "id" : 70,
         "name" : "Tlayuda de Camaron",
         "category" : "Happy Hour",
         "ingredients" : "tortillas tlayuda, shrimp, mojo do ajo, white bean puree, queso mixto, chimichurri, cherry tomato pico, queso fresco",
-        "allergens" : "allium, shellfish, dairy"
+        "allergens" : "allium, shellfish, dairy, **nightshade"
     },
     {
         "id" : 71,
         "name" : "Taquitos Carnitas",
         "category" : "Happy Hour",
         "ingredients" : "refried black beans (lard), roasted tomato sauce, crema, queso fresco, lime juice, pickled jalalpeno, green cabbage, radish",
-        "allergens" : "allium, citrus, dairy"
+        "allergens" : "allium, citrus, dairy, nightshade"
     },
     {
         "id" : 72,

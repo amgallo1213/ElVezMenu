@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -8,19 +9,18 @@
 }
 
 h1, h2, h3, h4, h5, h6  {
-  /* font-family: "Corben", serif; */
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   padding: 8px;
 }
 
 h1  {
-  color: rgb(40, 1, 24);
+  color: #7D1B31;
   font-size: clamp(2.5rem, 4.619vw + 1.305rem, 5rem);
   line-height: clamp(3.75rem, 5.081vw + 2.435rem, 6.5rem);
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 12px;
   line-height: 24px;
 }
@@ -42,7 +42,7 @@ p {
 }
 
 .main-container  {
-  background-color: rgb(245, 238, 241);
+  background-color: rgb(238, 236, 243);
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -63,13 +63,22 @@ h1, h3  {
 }
 
 .item-card  {
-  background-color: rgb(249, 247, 248);
+  /* background-color: rgb(249, 247, 248); */
   width: 325px;
   height: auto;
-  border: 1px solid black;
+  border: 1px solid #7D1B31;
   margin: 16px;
   padding: 8px;
   border-radius: 2px;
+}
+
+button  {
+  height: 30px;
+  width: 90px;
+  border: 2px solid #7D1B31;
+  background-color: #7D1B31;
+  color: #eeecf3;
+  margin: 8px;
 }
 
 @media (min-width: 768px) {
