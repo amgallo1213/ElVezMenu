@@ -45,7 +45,7 @@ function App() {
         <p>The only soy on the menu is in the tamari.</p>
         <p>Our chips are gluten free but if someone is extremely sensitive to gluten, they should not have them as we cannot guarantee no cross contamination.</p>
 
-        <Buttons filter={filterButton}/>
+        {/* <Buttons filter={filterButton}/> */}
 
         <div className="item-container">
           
