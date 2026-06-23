@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(238, 236, 243);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Oswald", sans-serif;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    padding-top: 12px;
+}
+
+.main-container {
+    /* background-color: rgb(238, 236, 243); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-select-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    justify-content: center;
+    padding: 24px 16px;
+}
+
+.item-card {
+    padding: 16px;
+}
+
+.search-input {
+    margin: 16px;
+    width: 240px;
+    height: 40px;
+    padding: 8px;
+}
+
+.select {
+    width: 120px;
+    height: 40px;
+}
+
+.select-btn-container   {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.btn {
+    background-color: #7D1B31;
+    height: 40px;
+    width: 120px;
+    border: 2px solid #7D1B31;
+    border-radius: 5px;
+    margin: 4px;
+    padding: 0.3rem;
+    font-weight: bold;
+    font-size: smaller;
+    color: #eeecf3;
+    text-transform: uppercase;
+}
+
+.card-span {
+    font-weight: 400;
+}
