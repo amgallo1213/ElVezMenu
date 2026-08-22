@@ -62,6 +62,11 @@ h1, h3  {
   text-align: center;
 }
 
+.e-h1 {
+  font-size: clamp(2.5rem, 4.619vw + 1.305rem, 5rem);
+  color: hotpink;
+}
+
 .item-card  {
   /* background-color: rgb(249, 247, 248); */
   width: 325px;
