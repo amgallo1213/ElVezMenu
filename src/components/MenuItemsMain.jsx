@@ -40,7 +40,9 @@ const MenuItemsMain = ({ foods }) => {
     return (
         <>
             <main>
-                <section className="notes">
+                
+
+                 <section className="notes">
                     <p>items marked with ** can be modified</p>
                     <p>The only soy on the menu is in the tamari.</p>
                     <p>Tomatoes, peppers, and potatoes are nightshades.</p>
@@ -79,7 +81,8 @@ const MenuItemsMain = ({ foods }) => {
                             <ItemCard key={index} food={food} />
                         ))
                     }
-                </section>
+                </section> 
+
             </main>
 
         </>
