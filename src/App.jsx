@@ -55,6 +55,7 @@ import { useState } from 'react'
 import './App.css'
 import { foods } from './data'
 import MenuItemsMain from './components/MenuItemsMain'
+import ErrorPage from './components/ErrorPage'
 
 function App() {
 
@@ -62,8 +63,9 @@ function App() {
   return (
     <>
       <div className='main-container'>
-        <h1>El Vez Menu Info</h1>
-        <MenuItemsMain foods={foods} />
+        {/* <h1>El Vez Menu Info</h1> */}
+        {/* <MenuItemsMain foods={foods} /> */}
+        <ErrorPage />
       </div>
 
 
